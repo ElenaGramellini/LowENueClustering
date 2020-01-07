@@ -5,6 +5,7 @@ Can we develop a strategy to keep high efficiency for nues and decent cosmic rej
 
 
 Some techinical details and some sparse thoughts:
+
 0. Once this is downloaded in the normal github fashion, just source the setup environment (I assume you've got a bash shell)
 ```
 source simpleSetup.sh
