@@ -1,3 +1,5 @@
 *~
 *.root
+*.npy
+*.pyc
 *.DS_Store
