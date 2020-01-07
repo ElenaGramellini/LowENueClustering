@@ -7,6 +7,7 @@ Can we develop a strategy to keep high efficiency for nues and decent cosmic rej
 Some techinical details and some sparse thoughts:
 
 -1. This code is in python 2.7 ... and that needs to change. I have not gotten around and updated my system.
+
 0. Once this is downloaded in the normal github fashion, just source the setup environment (I assume you've got a bash shell)
 ```
 source simpleSetup.sh
