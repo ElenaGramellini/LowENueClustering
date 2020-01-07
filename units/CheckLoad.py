@@ -1,7 +1,5 @@
 import numpy as np
-import os
 from root_numpy import root2array, tree2array
-from root_numpy import testdata
 import ROOT
 import LoadNumpyArray as ldA
 
@@ -11,7 +9,9 @@ def checkLoadedTree(rootFileName = '../rootFiles/Nue_LowE.root', treeName = 'MCN
     intree = rfile.Get(treeName)
     #... and convert the TTree into an array
     array        = tree2array(intree)
-    loaded_array = ldA.load()
+    #... let's load the array using the load function, which reads the already stored file
+    loaded_array = ldA.load('../npFiles/Nue_LowE.npy')
+    # if the loaded array is the same as the original one, you should see only "True" printed. 
     print array == loaded_array
 
 checkLoadedTree()
