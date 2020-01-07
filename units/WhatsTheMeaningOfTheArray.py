@@ -1,6 +1,7 @@
 import numpy as np
 import LoadNumpyArray as ldA
-
+import os
+project_home = os.environ['LOW_NUE_CLUSTER_HOME']
 
 def main():
     print "The unit convention followed for this array is the following:"
@@ -16,7 +17,7 @@ def main():
     print "     Plane 1: [2400 - 4799]"
     print "     Plane 2: [4800 - 8255]"
     print
-    array = ldA.load('../npFiles/Nue_LowE.npy')
+    array = ldA.load(project_home + '/npFiles/Nue_LowE.npy')
     print "Array format: "
     print array.dtype
 

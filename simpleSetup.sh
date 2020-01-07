@@ -1,0 +1,3 @@
+#!/bin/sh
+export LOW_NUE_CLUSTER_HOME=$PWD
+echo $LOW_NUE_CLUSTER_HOME
